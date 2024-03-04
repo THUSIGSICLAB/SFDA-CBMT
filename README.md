@@ -15,7 +15,7 @@ cd SFDA-CBMT
 ```
 
 ## Training
-* Download datasets from [here](https://drive.google.com/file/d/1B7ArHRBjt2Dx29a3A6X_lGhD0vDVr3sy/view).
+* Download datasets from [BaiduNetDisk](https://drive.google.com/file/d/1B7ArHRBjt2Dx29a3A6X_lGhD0vDVr3sy/view).
 * Download source domain model from [here](https://drive.google.com/drive/folders/1L23mCg8prsdu1imEQI5ouuwvVL_FSiLY) or specify the `--data-dir` in `./train_source.py` and then run it.
 * Save source domain model into folder `./logs_train/`.
 * Run `./train_target.py` with specified `--model-file` and `--data-dir` to start the SFDA training process.
